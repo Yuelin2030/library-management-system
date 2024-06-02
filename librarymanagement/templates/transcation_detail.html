@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Transaction Detail</title>
+</head>
+<body>
+    <h1>{{ transaction.article.title }}</h1>
+    <p>Issued to: {{ transaction.member.first_name }} {{ transaction.member.last_name }}</p>
+    <p>Issue Date: {{ transaction.issue_date }}</p>
+    <p>Return Date: {{ transaction.return_date }}</p>
+    <p>Fee Charged: {{ transaction.fee_charged }}</p>
+</body>
+</html>

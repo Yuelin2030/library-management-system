@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Transactions</title>
+</head>
+<body>
+    <h1>Transactions</h1>
+    <ul>
+        {% for transaction in transactions %}
+            <li>{{ transaction.article.title }} issued to {{ transaction.member.first_name }} on {{ transaction.issue_date }} - Fee: {{ transaction.fee_charged }}</li>
+        {% endfor %}
+    </ul>
+</body>
+</html>
