@@ -28,5 +28,3 @@ urlpatterns = [
     # Settings
     path('settings/', views.library_settings_view, name='library_settings'),
 ]
-
-

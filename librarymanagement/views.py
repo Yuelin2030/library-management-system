@@ -4,7 +4,9 @@ from .models import Article, LibraryMember, LibraryTransaction, LibrarySettings
 from .forms import ArticleForm, LibraryMemberForm, LibraryTransactionForm
 
 def index(request):
-    return render(request, 'library/index.html')
+    return render(request, 'index.html')
+
+
 
 # Article Views
 def article_list(request):
@@ -125,5 +127,3 @@ def transaction_delete(request, pk):
 def library_settings_view(request):
     settings = LibrarySettings.objects.all()
     return render(request, 'library/settings.html', {'settings': settings})
-
-

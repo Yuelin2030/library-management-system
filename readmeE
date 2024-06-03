@@ -1,0 +1,16 @@
+# Library Management System
+
+## Overview
+This is a simple Library Management System built with Django. It allows a librarian to manage books, members, and transactions.
+
+## Features
+- CRUD operations for books and members
+- Issue and return books
+- Search for books
+- Charge rent fees on book returns
+- Ensure members' outstanding debt is not more than KES 500
+
+## Installation
+1. Clone the repository:
+   ```sh
+   git clone <repository-url>"C:\Users\hp\OneDrive\Desktop\librarymanagementsystem\librarymanagementsystem"
