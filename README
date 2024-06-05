@@ -14,3 +14,4 @@ This is a simple Library Management System built with Django. It allows a librar
 1. Clone the repository:
    ```sh
    git clone <repository-url>
+![screenshot](https://github.com/Yuelin2030/library-management-system/blob/master/Screenshot%202024-05-31%20175104.png)
